@@ -134,7 +134,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 
 		//MOVIMIENTO DEL CUBO POR MOUSE CLICK
-		/*
+
 		if(Gdx.input.isTouched()){ //Si el mause tochea la escena
 
 			//Vector 3d.
@@ -153,7 +153,7 @@ public class MyGdxGame extends ApplicationAdapter {
 			camera.unproject(touchPos);
 			bucket.x = touchPos.x - 64 / 2;
 		}
-		*/
+
 
 		//MOVIMIENTO DEL CUBO POR TECLADO
 		if(Gdx.input.isKeyPressed(Input.Keys.LEFT)){
