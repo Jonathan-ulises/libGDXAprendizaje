@@ -45,7 +45,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	//Ultima gota añadida
 	private long lastDropTime; //El tiempo se almacena en nanosegundos
 
-	//Bucle de ejecucion.
+	//Crea los elementos de la pantalla
 	@Override
 	public void create () {
 		//Asignar las texturas a las variables
@@ -117,6 +117,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	}
 
 	//Dibujado
+	//Ciclo de vida.
 	@Override
 	public void render () {
 		ScreenUtils.clear(0,0, 0.2f,1);
